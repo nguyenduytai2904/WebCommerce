@@ -21,17 +21,17 @@ export const WrapperStyleNameProduct = styled.h1`
     word-break: break-word;
 `
 
-export const WrapperStyleTextReview= styled.span`
+export const WrapperStyleTextReview = styled.span`
     font-size: 15px;
     line-height: 24px;
     color: rgb(120,120,120);
 `
 
-export const WrapperPriceProduct=styled.div`
+export const WrapperPriceProduct = styled.div`
     color: rgb(250,250,250);
     border-redius: 4px;
 `
-export const WrapperPriceTextProduct=styled.h1`
+export const WrapperPriceTextProduct = styled.h1`
     font-size: 32px;
     line-height: 40px;
     margin-right: 8px;
@@ -40,7 +40,7 @@ export const WrapperPriceTextProduct=styled.h1`
     padding: 10px;
     margin-top: 10px;
 `
-export const WrapperQualityProduct=styled.div`
+export const WrapperQualityProduct = styled.div`
     display: flex;
     gap: 4px;
     align-items: center;
@@ -50,9 +50,9 @@ export const WrapperQualityProduct=styled.div`
 `
 
 
-export const WrapperInputNumber= styled(InputNumber)`
+export const WrapperInputNumber = styled(InputNumber)`
     &.ant-input-number.ant-input-number-sm{
-        width: 60px;
+        width: 40px;
         border-top: none;
         border-bottom: none;
         &.ant-input-number-input-wrap{
